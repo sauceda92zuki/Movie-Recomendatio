@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href=./style.css>
+</head>
+<body>
+  <div class="userform">
+    <h1 class=title>Movie recommendation</h1>
+    <div class="section">
+   
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="field">
+              <label class="label">Category</label>
+              <div class="control">
+                <div class="select">
+                  <select id="ddn-category">
+                    <option value="28" selected>Action</option>
+                    <option value="35">Comedy</option>
+                    <option value="18">Drama</option>
+                    <option value="14">Fantasy</option>
+                    <option value="27">Horror</option>
+                    <option value="9648">Mystery</option>
+                    <option value="10749">Romance</option>
+                    <option value="53">Thriller</option>
+                  </select>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <label class="label">Country</label>
+              <div class="control">
+                <div class="select">
+                  <select id="ddn-country">
+                    <option value="us" selected>United States</option>
+                    <option value="mx">Mexico</option>
+                    <option value="es">Spain</option>
+                    <option value="kr">South Corea</option>
+                    <option value="jp">Japan</option>
+                    <option value="gb">United Kingdom</option>
+                    <option value="ge">Germany</option>
+                    <option value="it">Italy</option>
+                    <option value="fr">France</option>
+                  </select>
+                </div>
+              </div>
+          </div>
+          </div>
+         
+          <div class="column">
+            <div class="field">
+              <label class="label">Streaming Service</label>
+              <div class="control">
+                <div class="select">
+                  <select id="ddn-stream">
+                    <option value="netflix" selected>Netflix</option>
+                    <option value="prime">Amazon Prime Video</option>
+                    <option value="disney">Disney</optin>
+                  </select>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <label class="label">Ranking</label>
+              <div class="control">
+                <div class="select">
+                  <select id="ddn-ranking">
+                    <option value="5">5 or Above</option>
+                    <option value="7">7 or Above</option>
+                    <option value="8">8 or Above</option>
+                  </select>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="column">
+            <div class="field is-grouped">
+              <div class="control">
+                <button type="submit" id="button-search" class="button is-link">Search Movie</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="movie-container" class="container">
+      </section>
+      <script src="./Jquery.min.js"></script>
+      <script src="./script.js"></script>
+</body>
+</html>

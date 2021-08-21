@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    }
+    .sub-heading1{
+        font-size:22px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 600;
+        color:#DF711B;
+    }
+    .sub-heading2{
+        font-size:18px;
+        color: rgb(141, 140, 140) !important;
+        font-weight: 600;
+    }
+    .sub-heading2 span{
+        font-size:22px;
+        color:#082032;
+    }
+    
+    .text-long{
+        color:#000;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .is-primary {
+    padding:10px;
+    }
+    #button-search{
+        margin-top:27px;
+    }
+    .movie-card{
+        padding:30px 10px;
+        border: 1px solid #FFB740;
+        border-radius:10px;
+        margin-top:30px;
+    }
